@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BDO Carrack Setup</title>
+<style>
+  :root{
+    --purple:#5521ff;
+    --lime:#b3ff3b;
+    --lpurple:#bba6ff;
+    --grey:#cfcfcf;
+    --bg:#0f0d1a;
+    --panel:#181530;
+    --panel2:#1f1b3d;
+    --border:#332b66;
+    --text:#f2f0ff;
+    --muted:#a79ee0;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Segoe UI',Roboto,Arial,sans-serif;
+    min-height:100vh;
+  }
+  .wrap{
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px 16px 60px;
+  }
+  .top-nav{
+    display:flex;
+    gap:8px;
+    margin:0 0 18px;
+    border-bottom:1px solid var(--border);
+    padding-bottom:12px;
+  }
+  .top-nav a{
+    color:var(--muted);
+    text-decoration:none;
+    font-size:13px;
+    font-weight:600;
+    padding:8px 14px;
+    border-radius:8px;
+    border:1px solid transparent;
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  .top-nav a:hover{
+    color:#fff;
+    background:var(--panel2);
+  }
+  .top-nav a.active{
+    color:#fff;
+    background:var(--purple);
+    border-color:var(--purple);
+  }
+  h1{
+    font-size:24px;
+    margin:0 0 4px;
+    color:#fff;
+  }
+  .sub{
+    color:var(--muted);
+    font-size:13px;
+    margin:0 0 24px;
+  }
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:22px 24px;
+    margin-bottom:18px;
+  }
+  .panel h2{
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--lpurple);
+    margin:0 0 16px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--border);
+  }
+  .panel h3{
+    font-size:15px;
+    color:#fff;
+    margin:20px 0 8px;
+  }
+  .panel h3:first-of-type{margin-top:0;}
+  .panel p{
+    font-size:14px;
+    line-height:1.7;
+    color:var(--text);
+    margin:0 0 12px;
+  }
+  .panel ul{
+    margin:0 0 12px;
+    padding-left:20px;
+  }
+  .panel li{
+    font-size:14px;
+    line-height:1.7;
+    margin-bottom:6px;
+  }
+  .panel strong{color:var(--lime);}
+  .callout{
+    background:var(--panel2);
+    border:1px solid var(--purple);
+    border-left:4px solid var(--purple);
+    border-radius:8px;
+    padding:12px 14px;
+    margin:12px 0;
+    font-size:13px;
+    line-height:1.6;
+    color:var(--grey);
+  }
+  .callout strong{color:#fff;}
+  .warning{
+    border-color:#ff5b5b;
+    border-left-color:#ff5b5b;
+  }
+  .warning strong{color:#ff8383;}
+  .intro-note{
+    color:var(--muted);
+    font-size:13px;
+    font-style:italic;
+    margin:0 0 12px;
+  }
+  .stat-image-wrap{
+    margin-top:8px;
+    text-align:center;
+  }
+  .stat-image-wrap img{
+    max-width:100%;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    border:1px solid var(--border);
+    display:block;
+  }
+  .stat-image-caption{
+    color:var(--muted);
+    font-size:12px;
+    margin-top:10px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top-nav">
+    <a href="index.html">Character Selection Portrait</a>
+    <a href="carrack-setup.html" class="active">Carrack Setup</a>
+  </nav>
+  <h1>Maleare's (Kinda) Quick Guide to Setting up your Carracks</h1>
+  <p class="sub">Ocean Stuff — for Sailors and stuff.</p>
+
+  <div class="panel">
+    <p class="intro-note">
+      The following is based on my experience + facts from data miners and stuff. AFAIK, all these
+      numbers should still be up to date as of current patch.
+    </p>
+    <p>Anywho, let's get to it.</p>
+  </div>
+
+  <div class="panel">
+    <h2>For Bartering</h2>
+
+    <h3>Advance</h3>
+    <p>
+      There really isn't another option here, especially if you're looking to do T6-T7 barters for
+      silver down the line. Advance is the only option, unless you're willing to go full P2W with
+      other carracks.. which I highly recommend <strong>AGAINST</strong>.
+    </p>
+
+    <h3>Sailors</h3>
+    <p>
+      Just use all Innocents — you can't go wrong here. However, if you're like myself and don't
+      want to get hassled, it's a good idea to use a Realistic sailor for the cannon slot, at the
+      very least. This will let you have an easier time clearing the OE daily quests..and the
+      random Maretta spawn that you might encounter.
+    </p>
+
+    <h3>Blue/Yellow Gear Priority</h3>
+    <p>
+      Prioritize the ones that add +weight (cannons go 1st, to make OE dailies easier.. then
+      plating).. Then the rest that add speed (sail, Figurehead). Trust me, weight is much more
+      important when doing barters.
+    </p>
+
+    <div class="callout warning">
+      <strong>DO NOT TAKE A BALANCE FOR BARTERS</strong> — I know it has more weight than valor,
+      but just don't. It's not worth it. Much better to take a Valor instead. Valor is the 2nd
+      best bartering ship, but still would be very limited due to the weight limit. Again, use an
+      <strong>Advance</strong> if you're looking to do barters, or for your 1st carrack.
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>For BBF</h2>
+
+    <h3>Blue/Yellow Gear Priority</h3>
+    <p>Build your Cannons first. Obviously for more damage.</p>
+    <p>Plating goes 2nd. This will increase your max durability and damage reduction.</p>
+    <p>Figurehead is 3rd. For more damage reduction.</p>
+
+    <h3>Panokseon</h3>
+    <p>
+      The Panokseon generally outperforms Valor. The -1 second cannon cooldown advantage of the
+      valor doesn't count for much because of the movement debuffs on all carracks. The
+      Panokseon's durability advantage far, far outweighs that cannon cooldown time. The longer
+      you're alive, the more DPS you can do.
+    </p>
+    <div class="callout">
+      <strong>Important Note</strong> — You will need to buy a whole bunch of Sailor slots to fully
+      kit out your Panokseon.
+    </div>
+
+    <h3>Volante</h3>
+    <p>
+      The Volante is the 2nd choice in BBF.. due to its unfair base debuff advantage.. (If I
+      remember correctly Volantes get debuffed by 20%..while the rest are debuffed by 30% of
+      movement stats — speed, turn, accel, brake)
+    </p>
+    <p>
+      On average (assuming your base speed on a carrack is 200%) your Volante will be able to
+      clear 150% speed EASILY.. while Panoks/Valors will struggle to even reach that 150%
+      threshold.. They can only reach it when using the movement buff during BBF and the Volante
+      is pretty much untouchable with that buff.
+    </p>
+    <p>
+      This unfair advantage will allow you to use more Realistic/Confident/Curious/Quick-witted
+      sailors to balance out your spec.
+    </p>
+    <p>Again — the longer you stay alive, the more DPS you'll be able to do.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Sailor Setup for BBF and What You Need to Know</h2>
+    <p>
+      You decide your overall sailor build, but there are a few set rules. All carracks have parts
+      slots (Sail, wheel, cannon, etc). These parts give a x2 boost to certain sailor stats. With
+      that said, here are the rules that you should follow.
+    </p>
+
+    <h3>Sail</h3>
+    <p>
+      Innocent sailors ONLY. No ifs, ands or buts. This slot increases your sailor's speed and
+      acceleration stats.
+    </p>
+
+    <h3>Wheel</h3>
+    <p>Confident sailors ONLY. This slot increases your turn and brake stats.</p>
+
+    <h3>Cannons</h3>
+    <p>
+      This slot increases your Cannon stats (Firing range, firing angle, and accuracy). You have a
+      few options here, and it is absolutely worth it to experiment to suit your taste or the
+      situation. Your options are:
+    </p>
+    <ul>
+      <li>
+        <strong>Realistic</strong> — My first choice here. Firing angle will let you fire slightly
+        forward, and almost all the way backward. Having realistic sailors will allow you to shoot
+        forward while doing a very slight turn. Which is great for chasing carracks, or
+        defensively when you're being chased.
+      </li>
+      <li>
+        <strong>Quick</strong> — Probably the better 2nd option as it gives the same amount of
+        firing range, but gives more wits (acceleration).
+      </li>
+      <li>
+        <strong>Curious</strong> — Your 3rd choice. Just because it gives, pound for pound, more
+        stats than the Quick sailor. However, the Quick sailor gives the more useful stats
+        (acceleration).
+      </li>
+    </ul>
+    <p>
+      It is important to note that there is a hard-cap to the firing angle. From my experience,
+      any more than 3 realistic sailors is worthless. Panokseon has the most cannon slots at 3..
+      so if you really want to, just add in 3 realistic sailors here and you're already good. If
+      you add more, you're griefing yourself due to the huge hit in mobility that you'll be
+      sacrificing.
+    </p>
+    <p>
+      Personally, having 1 realistic sailor is good enough.. then use Curious sailors to add more
+      to your firing range.. Trust me, you'll feel the effect of firing range a whole lot more.
+    </p>
+
+    <h3>Filling the Rest</h3>
+    <p>
+      With those non-negotiables mentioned, the rest is more for experimentation.. Personally,
+      I'll be filling out the rest of your sailor slots with Confident sailors.
+    </p>
+    <p>
+      Confident sailors give just about half the speed of an innocent sailor, but also for half
+      the amount of crew slots. Meaning 2x Confidents = just about 1 Innocent in terms of speed..
+      However, the confident sailor wins out for the rest of the stats, making it the better
+      choice.
+    </p>
+
+    <div class="callout">
+      <strong>Note</strong> — You're going to need to buy sailor slots (Captain's Medallion) from
+      the pearl shop to add more Confident sailors.
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>For the Stat Nerds (Min-Maxing Your Sailors)</h2>
+    <p>
+      There are certain break points that you need to reach for your sailors in order to be able
+      to roll max stats for it when it reaches level 10. Personally, you don't need to do all
+      that.. but getting an above average roll, or at least the level 8 break point, should be your
+      goal.
+    </p>
+    <p>
+      Check out the image below for a quick overview. I've listed down the best sailor options,
+      along with the stats that each needs to reach (at level 8 and 9) in order to get a chance of
+      maxing out that particular stat.
+    </p>
+
+    <div class="stat-image-wrap">
+      <img src="assets/sailor-stats.jpg" alt="Sailor stat breakpoints table for Innocent, Confident, Realistic, Curious, and Quick sailors, showing Lv1 through Lv10 stat progressions and goal ranges.">
+      <p class="stat-image-caption">Sailor stat breakpoints — Innocent, Confident, Realistic, Curious, and Quick.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
